@@ -1,4 +1,4 @@
-import EmotionDetection.emotion_detection_formatted as emo
+import EmotionDetection.emotion_detection_v2 as emo
 import unittest
 
 class TestEmotionDetection(unittest.TestCase):

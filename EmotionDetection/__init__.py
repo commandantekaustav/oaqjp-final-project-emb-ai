@@ -1,1 +1,1 @@
-from .emotion_detection_formatted_and_error_handled import emotion_detector
+from .emotion_detection import emotion_detector
