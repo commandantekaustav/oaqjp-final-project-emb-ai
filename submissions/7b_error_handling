@@ -3,7 +3,7 @@ a text string which will then be analyzed to determine which emotion amongst a s
 is the most likely emotion being conveyed by the given text.
 '''
 from flask import Flask, request, render_template
-from EmotionDetection.emotion_detection_formatted import emotion_detector
+from EmotionDetection.emotion_detection_formatted_and_error_handled import emotion_detector
 
 app = Flask("Emotion Detector")
 
